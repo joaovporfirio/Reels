@@ -1,0 +1,57 @@
+body {
+    background-color: #222;
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+}
+
+button {
+    padding: 5px 15px;
+    font-size:15px;
+    background-color: #b1060f;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.list {
+    position: relative;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: .3s;
+    width: 150px;
+    text-align: center;
+}
+
+.list ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+
+}
+
+.list ul li {
+    list-style: none;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.list ul li:hover {
+    background-color: #b1060f;
+    border-radius: 8px;
+}
+
+
+.newlist {
+    transform: scaleY(1);
+}
+
+
+
